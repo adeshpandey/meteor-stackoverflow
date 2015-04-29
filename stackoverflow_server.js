@@ -17,8 +17,8 @@ OAuth.registerService('stackoverflow', 2, null, function(query) {
     result;
 
   var identity = getIdentity(accessToken);
-  
-  return result;
+  while(result!==undefined)
+    return result;
 });
 
 var getExtraData = function(accessToken, extraFields, fields) {

@@ -18,7 +18,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
   api.use('oauth2', ['client', 'server']);
   api.use('oauth', ['client', 'server']);
-  api.use('gb96:zlib', ['client', 'server']);
+  /*api.use('gb96:zlib@1.0.5', ['client', 'server']);*/
   api.use('http', ['server']);
   api.use('templating', 'client');
   api.use('underscore', 'server');
